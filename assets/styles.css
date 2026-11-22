@@ -1180,32 +1180,32 @@ button:disabled {
 }
 
 .floating-whatsapp {
-    position: fixed;
-    right: 25px;
-    bottom: 25px;
-    width: 55px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #25D366;
-    color: #fff;
-    font-size: 30px;
-    border-radius: 50%;
-    text-decoration: none;
-    z-index: 9999;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #25d366;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 9999;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
 .floating-whatsapp:hover {
-    background: #128C7E;
-    color: #fff;
-    transform: scale(1.1);
+  background: #128c7e;
+  color: #fff;
+  transform: scale(1.1);
 }
 
 .floating-whatsapp i {
-    line-height: 1;
+  line-height: 1;
 }
 
 .page-hero {
@@ -2002,23 +2002,38 @@ button:disabled {
   }
 }
 
-
 .social-links a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-links a i {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 @media (max-width: 767px) {
-    .floating-whatsapp {
-        width: 50px;
-        height: 50px;
-        font-size: 27px;
-        right: 20px;
-        bottom: 20px;
-    }
+  .floating-whatsapp {
+    width: 50px;
+    height: 50px;
+    font-size: 27px;
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+.btn:after {
+  content: "\f061";
+  font-family: "Font Awesome 6 Free";
+  font-size: 19px;
+  line-height: 0;
+  font-weight: 900;
+}
+
+.text-link:after {
+  content: "\f061";
+  font-family: "Font Awesome 6 Free";
+  font-size: 12px;
+  line-height: 0;
+  font-weight: 900;
 }
